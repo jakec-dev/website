@@ -1,0 +1,54 @@
+{
+  "path": "./node_modules/cz-conventional-changelog",
+  "disableScopeLowerCase": false,
+  "disableSubjectLowerCase": false,
+  "maxHeaderWidth": 100,
+  "maxLineWidth": 100,
+  "defaultType": "",
+  "defaultScope": "",
+  "defaultSubject": "",
+  "defaultBody": "",
+  "defaultIssues": "",
+  "types": {
+    "feat": {
+      "description": "A new feature",
+      "title": "Features"
+    },
+    "fix": {
+      "description": "A bug fix",
+      "title": "Bug Fixes"
+    },
+    "style": {
+      "description": "Cosmetic style updates that do not add, remove or change functionality",
+      "title": "UI Changes"
+    },
+    "refactor": {
+      "description": "A code change that neither fixes a bug nor adds a feature (formatting, performance improvement, etc)",
+      "title": "Code Refactoring"
+    },
+    "build": {
+      "description": "Changes that affect the build system or external dependencies (pnpm, vite, etc.)",
+      "title": "Builds"
+    },
+    "ci": {
+      "description": "Changes to our CI configuration files and scripts",
+      "title": "Continuous Integrations"
+    },
+    "dev": {
+      "description": "Changes to development environment (linter, formatter, commit hooks, etc.)",
+      "title": "Development Tools"
+    },
+    "docs": {
+      "description": "Documentation only changes",
+      "title": "Documentation"
+    },
+    "test": {
+      "description": "Adding missing tests or correcting existing tests",
+      "title": "Tests"
+    },
+    "skip": {
+      "description": "Other changes that don't modify src or test files (devDependency updates, etc.)",
+      "title": "Non-Release Changes"
+    }
+  }
+}

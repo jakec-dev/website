@@ -1,0 +1,10 @@
+{
+  "cSpell.words": ["tseslint"],
+  "editor.formatOnSave": true,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "svelte"],
+  "eslint.experimental.useFlatConfig": true,
+  "svelte.enable-ts-plugin": true
+}
