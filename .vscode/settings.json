@@ -1,10 +1,19 @@
 {
-  "cSpell.words": ["tseslint"],
+  "cSpell.words": ["skeletonlabs", "tailwindcss", "tseslint"],
   "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": true
+  },
   "[svelte]": {
     "editor.defaultFormatter": "svelte.svelte-vscode"
   },
   "eslint.validate": ["javascript", "javascriptreact", "svelte"],
   "eslint.experimental.useFlatConfig": true,
-  "svelte.enable-ts-plugin": true
+  "svelte.enable-ts-plugin": true,
+  "tailwindCSS.experimental.classRegex": [
+    ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
+    ["cx\\(([^)]*)\\)", "(?:'|\"|`)([^']*)(?:'|\"|`)"]
+  ]
 }
